@@ -7,10 +7,10 @@ const CounterApp = () => {
     return (
         <div>
             <h1>Clicks: {counter}</h1>
-            <button >
+            <button onClick={increment}>
                 Increment
             </button>
-            <button >
+            <button  onClick={reset}>
                 Reset
             </button>
         </div>
